@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ExtensionObject  Path="ET-HelloWorld" 
+                  Label="Hello World" 
+                  Description="Hello World Extension" 
+                  Type="object">
+
+  <!-- Text0: Text Title -->
+  <Text Label="Title" Type="text" Expression="Hello World" />
+
+  <!-- Text1: Color Title -->
+  <Text Label="Background-Color Title" Type="color" Expression="#c0c0c0" />
+
+  <!-- Text2: Sub Title -->
+  <Text Label="Sub-Title" Type="text" Expression="... this should be really prettyfied ..." />
+
+  <!-- Text3: Checkbox for enabling, disabling sub-title -->
+  <Text Label="Show Sub-Title" Type="checkbox" Expression="1" />  
+
+</ExtensionObject>
